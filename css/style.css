@@ -5,6 +5,7 @@ font-size: 44px;
 font-family: 'Lato', Sans-Serif;
 font-size: 16px;
 */
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap");
 html, body, #page-one, #page-two, #page-three, #page-four, #page-five {
   height: auto;
   min-height: 100vh;
@@ -12,9 +13,14 @@ html, body, #page-one, #page-two, #page-three, #page-four, #page-five {
 
 body {
   margin: 0;
-  font-family: "Lato", Sans-Serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.1rem;
+}
+
+em {
+  font-weight: bold;
 }
 
 a {
@@ -78,6 +84,7 @@ h1, h2 {
 
 h3 {
   font-size: 2em;
+  line-height: 1.1em;
 }
 
 ul {
